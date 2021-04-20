@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>_Amajohn_</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: ;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: darkgrey;
+
+        }
+
+        #container2 {
+            margin: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 3px solid black;
+        }
+
+        #div2 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 40px;
+        }
+
+        .imgh:hover {
+            background-color: dimgray;
+            border-radius: 25%;
+        }
+
+        .imge {
+            height: 150px;
+            padding: 3px;
+        }
+
+
+        #dive {
+            float: left;
+            text-align: center;
+        }
+
+
+        .divc {
+            margin: 15px;
+            padding: 5px;
+        }
+
+        .divc:hover {
+            background-color: grey;
+        }
+
+        .ulc {
+
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+        }
+
+        .lic {
+            padding: 15px;
+            float: left;
+            border-right: 2px solid black;
+            font-family: 'Changa', sans-serif;
+            font-size: 20px;
+        }
+
+        .lic:last-child {
+            border-right: none;
+        }
+
+        .lic:hover {
+            background-color: grey;
+        }
+
+        .genrl {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: #ccccb3;
+        }
+
+        .button {
+            background-color: #3f473f;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Changa', sans-serif;
+            font-size: 16px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="container">
+        <div id="div1">
+            <img class="imgh" src="https://img.icons8.com/metro/48/000000/menu.png" />
+        </div>
+        <div id="div2">
+            _Amajohn_
+        </div>
+        <div id="div3">
+            <img class="imgh" src="https://img.icons8.com/fluent-systems-filled/48/000000/guest-male.png" />
+            <img class="imgh" src="https://img.icons8.com/android/48/000000/search.png" />
+            <img class="imgh" src="https://img.icons8.com/windows/48/000000/fast-cart.png" />
+        </div>
+    </div>
+
+
+    <!-- Catergories -->
+    <div class="genrl">
+        <div>
+            <ul class="ulc">
+                <li class="lic">Home</li>
+                <li class="lic">Electronics</li>
+                <li class="lic">Fashion</li>
+                <li class="lic">Laptops</li>
+                <li class="lic">Beauty</li>
+                <li class="lic">Toys and Babies</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <!-- Bootstrap Code for slideshow -->
+    <div class="container" style="background-color: aliceblue;width=85%;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="https://www.amazon.in/iphone/s?k=iphone" target="_blank">
+                        <img src="1.jpg" alt="iphone" style="width:100%;">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.amazon.in/macbook/s?k=macbook" target="_blank">
+                        <img src="2.jpg" alt="Mackbook" style="width:100%;">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.amazon.in/headphones/s?k=headphones" target="_blank">
+                        <img src="3.jpg" alt="headphones" style="width:100%;">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div id="container2">
+        <div class="divc"><a href="https://www.realme.com/in/realme-x7-pro" target="_blank">
+                <div id="dive"><img class="imge"
+                        src="https://rukminim1.flixcart.com/image/832/832/kklhbbk0/mobile/r/9/l/x7-pro-rmx2121-realme-original-imafzwfy6qqju8sm.jpeg?q=70"
+                        alt="Realme X7 Pro"></div>
+            </a>
+            <div id="dive"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Realme X7 Pro</strong><br>
+                <ul>
+                    <li>120Hz Display</li>
+                    <li>65W Super Charge</li>
+                    <li>Dimensity 1000+ Processor</li>
+                    <li>Sony 64MP Quad Camera</li>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.realme.com/in/realme-x7-pro" target="_blank"
+                    class="button">Shop
+                    Now</a>
+            </div>
+        </div>
+        <div class="divc"><a href="https://www.amazon.in/Rockerz-450-Wireless-Bluetooth-Headphone/dp/B07PR1CL3S"
+                target="_blank">
+                <div id="dive"><img class="imge"
+                        src="https://rukminim1.flixcart.com/image/832/832/k9stjm80/headphone/e/o/f/rockerz-450-boat-original-imafrgfsan7mpvdf.jpeg?q=70"
+                        alt="Boat Rockerz 450"></div>
+            </a>
+            <div id="dive"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boat Rockerz 450</strong> <br>
+                <ul>
+                    <li>Premium Matter Finish</li>
+                    <li>Upto 15hrs Battery Life</li>
+                    <li>40MM Sound Drivers</li>
+                    <li>Feather Light</li>
+                </ul>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="https://www.amazon.in/Rockerz-450-Wireless-Bluetooth-Headphone/dp/B07PR1CL3S" target="_blank"
+                    class="button">Shop
+                    Now</a>
+            </div>
+        </div>
+        <div class="divc"><a href="https://www.flipkart.com/campus-north-running-shoes-men/p/itmc20d311d29514"
+                target="_blank">
+                <div id="dive"><img class="imge"
+                        src="https://rukminim1.flixcart.com/image/800/960/k0sgl8w0/shoe/z/h/s/century-12cnblsky-6-asian-navy-original-imafkgdfcgj2nzva.jpeg?q=50"
+                        alt="Shoes"></div>
+            </a>
+            <div id="dive">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Campus Navy Sky</strong><br>
+                <ul>
+                    <li>Maximun Comfort</li>
+                    <li>Air Sole Technology</li>
+                    <li>Running Shoes</li>
+                    <li>Vibrant Colors</li>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="https://www.flipkart.com/campus-north-running-shoes-men/p/itmc20d311d29514" target="_blank"
+                    class="button">Shop
+                    Now</a>
+            </div>
+        </div>
+
+        <div class="divc"><a href="https://www.casioindiashop.com/watches-g-shock" target="_blank">
+                <div id="dive"><img class="imge"
+                        src="https://rukminim1.flixcart.com/image/300/300/j8rnpu80/watch/d/5/y/b172-casio-original-imaeymgrxhfmnw6f.jpeg?q=70"
+                        alt="G Shock"></div>
+            </a>
+            <div id="dive">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> Casio Gshock G45</strong> <br>
+                <ul>
+                    <li>Absolute Toughness</li>
+                    <li>7Years battery Life</li>
+                    <li>Quadd Sensors</li>
+                    <li>Smartphone link</li>
+                </ul>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="https://www.casioindiashop.com/watches-g-shock" target="_blank" class="button">Shop
+                    Now</a>
+            </div>
+        </div>
+        <div class="divc"><a
+                href="https://www.flipkart.com/realme-80-cm-32-inch-hd-ready-led-smart-android-tv/p/itm56d1cf16da75b"
+                target="_blank">
+                <div id="dive"><img class="imge"
+                        src="https://rukminim1.flixcart.com/image/300/300/kae95e80/television/f/6/y/realme-tv-32-original-imafrz79pweqeafh.jpeg?q=70"
+                        alt="TV"></div>
+            </a>
+            <div id="dive">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> Realme TV 32'</strong> <br>
+                <ul>
+                    <li>32 Inch Display</li>
+                    <li>HD Ready</li>
+                    <li>Android TV</li>
+                    <li>Smartphone Remote</li>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="https://www.flipkart.com/realme-80-cm-32-inch-hd-ready-led-smart-android-tv/p/itm56d1cf16da75b"
+                    target="_blank" class="button">Shop
+                    Now</a>
+            </div>
+
+        </div>
+        <div class="divc"><a href="https://www.asus.com/in/Laptops/For-Home/All-series/VivoBook-15-X512/" target="_blank">
+            <div id="dive"><img class="imge"
+                    src="https://rukminim1.flixcart.com/image/312/312/kjlrb0w0/computer/q/5/2/asus-original-imafz522u4fbgdw2.jpeg?q=70"
+                    alt="Laptop"></div></a>
+            <div id="dive">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> Asus Vivobook s14 </strong>
+                <br>
+                <ul>
+                    <li>14 inch Display</li>
+                    <li>AMD Ryzen 7 4700u </li>
+                    <li>512 gb SSD</li>
+                    <li>Radeon Vega 8 </li>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                href="https://www.asus.com/in/Laptops/For-Home/All-series/VivoBook-15-X512/"
+                target="_blank" class="button">Shop
+                Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- button -->
+    <div style="width: 100%;display: flex;justify-content: center;">
+        <a href="" class="button" target="_blank">
+            Show More
+        </a>
+    </div>
+    <br>
+
+    <!-- footer -->
+    <div class="genrl" style="text-align: center; font-size: 15px; padding: 25px;background-color: grey;">
+        <strong>
+            Sitemap - DMCA - Contact us <br>
+            &#169;2021 _Amajohn_ (Divyansh Garg)
+        </strong>
+
+    </div>
+</body>
+
+</html>
